@@ -14,9 +14,9 @@
 * ООП;
 * Макет Figma;
 * Java Script;
-* React JS;
 * Настройка Webpack;
-* Api.
+* Api,
+* React JS.
 
 ## **Ссылка на просмотр сайта и макет:**
 
@@ -30,15 +30,12 @@
 In the project directory, you can run:
 
 ### `npm start`
-
 Runs the app in the development mode.\
 
 ### `npm test`
-
 Launches the test runner in the interactive watch mode.\
 
 
 ### `npm run build`
-
 Builds the app for production to the `build` folder.\
 
