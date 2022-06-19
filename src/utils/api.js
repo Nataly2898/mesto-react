@@ -27,8 +27,8 @@ class Api {
       method: 'POST',
       headers: this._headers,
       body: JSON.stringify({
-        name: data.inputTitleAdd,
-        link: data.inputSubtitleAdd
+        name: data.name,
+        link: data.link
       })
     })
     .then(res => this._handleError(res));
@@ -77,21 +77,20 @@ class Api {
   }
 
   // Редактирование информации о пользователе через попап
-  editUserInfo(data) {
-    console.log(data);
+  setUserInfo(data) {
     return fetch(`${this._url}/users/me`, {
       method: 'PATCH',
       headers: this._headers,
       body: JSON.stringify({
-        name: data.inputTitle,
-        about: data.inputSubtitle
+        name: data.name,
+        about: data.about
       })
     })
       .then(res => this._handleError(res));
   }
 
   // Редактирование аватара пользователя через попап
-  editAvatar(data) {
+  setUserAvatar(data) {
     return fetch(`${this._url}/users/me/avatar`, {
       method: 'PATCH',
       headers: this._headers,

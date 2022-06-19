@@ -1,6 +1,5 @@
 export const formValidators = {};
 
-export const popupViewSelector = '.popup_view-image';
 export const  popupProfileSelector = '.popup_form_edit-profile';
 export const popupAddCardSelector = '.popup_form_add-card';
 export const  popupAdddCardDelSelector = '.popup_form_addcard-delete';

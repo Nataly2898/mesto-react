@@ -7,8 +7,8 @@ function ImagePopup({card, onClose}) {
     <section className={`popup popup_view-image`  + (card !== null && ' popup_opened')}>
       <div className="popup__content">
         <img 
-          src={card !== null ? card.link : '#'}
-          alt={card !== null ? card.name : '#'}
+          src={card?.link}
+          alt={card?.name}
           className="popup__image"/>
         <p className="popup__description"></p>
         <button className="popup__close-button" 
