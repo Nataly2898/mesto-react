@@ -10,7 +10,7 @@ function ImagePopup({card, onClose}) {
           src={card?.link}
           alt={card?.name}
           className="popup__image"/>
-        <p className="popup__description"></p>
+        <p className="popup__description">{card?.name}</p>
         <button className="popup__close-button" 
           type="button" 
           aria-label="Закрыть"

@@ -3,7 +3,7 @@ import "../index.css";
 import Header from "./Header.js";
 import Main from "./Main.js";
 import Footer from "./Footer.js";
-import PopupWithForm from "./PopupWithForm";
+//import PopupWithForm from "./PopupWithForm";
 import ImagePopup from "./ImagePopup";
 import EditProfilePopup from "./EditProfilePopup";
 import EditAvatarPopup from "./EditAvatarPopup";
@@ -170,14 +170,14 @@ function App() {
        onAddPlace = {handleAddPlaceSubmit}
     />
 
-    {/* Попап подтверждение удаления карточки */}
+    {/* Попап подтверждение удаления карточки 
     <PopupWithForm
       name="addcard-delete"
       title="Вы уверены?"
       buttonText="Да"
       isOpen={false}
       onClose={closeAllPopups}
-    /> 
+    /> */}
     
     {/* Попап открытия карточки */}
     <ImagePopup
