@@ -1,4 +1,4 @@
-# Проектная работа № 11: MESTO - REACT
+# Проектная работа № 12: MESTO - REACT
 
 ## **Описание проекта:**
 
@@ -16,11 +16,12 @@
 * Java Script;
 * Настройка Webpack;
 * Api,
+* Регистрация, авторизация,
 * React JS.
 
 ## **Ссылка на просмотр сайта и макет:**
 
-[Ссылка на GitHub Pages](https://nataly2898.github.io/mesto-react/)
+[Ссылка на GitHub Pages](https://nataly2898.github.io/react-mesto-auth/)
 
 [Ссылка на макет в Figma](https://www.figma.com/file/kRVLKwYG3d1HGLvh7JFWRT/JavaScript.-Sprint-6?node-id=0%3A1)
 
